@@ -1,0 +1,53 @@
+/*Os estilos atribuidos ao body determinam background da página, tamanho e estilo da página*/
+body{
+	background: #d2d2c1 url(images/fundo.png);
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+/*Formatação dos links usados no header da página*/
+a{
+	color: #4b566a;
+	text-decoration: none;
+	padding: 5px;
+	font-weight: bold;
+}
+
+
+/*Largura da página e posicionamento*/
+#main{	
+	width: 900px;
+	margin: auto;
+}
+
+/*Espaçamento interno do header e cor de fundo*/
+#header{
+	padding: 18px;
+	background: #c5c5b2;
+}
+
+/*Espaçamento interno do content, cor de fundo e alinhamento dos textos*/
+#content{
+	background: #e8e8d9;
+	padding: 10px;
+	text-align: justify;
+}
+
+/*Formata o h1 dentro de content*/
+#content h1{
+	font-size: 1.2em;
+	color: #828271;
+}
+
+/*Formata a borda da imagem dentro de content*/
+#content img{
+	border: 10px solid #c5c5b2;
+}
+
+.negrito{
+	font-weight: bold;
+}
+
+.centralizar{
+	text-align: center;
+}
